@@ -1,0 +1,37 @@
+.searchSortContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#search{
+    margin: 1% 0.8%;
+    padding: 0.4% 0.4%;
+    height: 36px;
+    width: 360px;
+    border-radius: 5px;
+    border: 2px solid rgb(211,211,211);
+    outline: none; 
+}
+.labelTextAndSort{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1% 0.8%;
+    width: 240px;
+}
+.sortText{
+    position: relative;
+    top: 6px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.inputSort{
+    margin: 0;
+    padding: 1% 1%;
+    height: auto;
+    width: 160px;
+    border-radius: 5px;
+    border: 2px solid rgb(211,211,211);
+    outline: none; 
+}
